@@ -12,3 +12,5 @@ long long inverse(long long num) {
 long long ncr(long long n, long long k) {
   return factorial[n] * inverse(factorial[k] * factorial[n - k] % mod) % mod;
 }
+
+// make a vector of factorials first
