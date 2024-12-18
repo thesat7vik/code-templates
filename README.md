@@ -11,7 +11,7 @@ In the `tasks.json` file, we can define `LOCAL` macro (useful for debugging late
   "${fileDirname}/${fileBasenameNoExtension}.exe"
 ],
 ```
-These arguments will only compiled the code. The program can be executed in the integrated terminal itself.
+These arguments will only compile the code. The program can be executed in the integrated terminal itself.
 To run the solution after it is compiled, we can simply use the following in the integrated terminal.
 
 ```bash
