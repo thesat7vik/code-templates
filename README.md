@@ -50,7 +50,7 @@ It is strongly recommended to use Mersenne Twister to generate random testcases.
 https://www.learncpp.com/cpp-tutorial/introduction-to-random-number-generation/ \
 https://www.learncpp.com/cpp-tutorial/generating-random-numbers-using-mersenne-twister/
 
-## Example of generating random number
+### Example of generating random number
 ```cpp
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 int N = rng() % 10 + 5;
