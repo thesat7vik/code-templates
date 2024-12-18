@@ -29,7 +29,7 @@ This will run `sol.cpp` (`sol.exe`) taking `in` as input.
 It is convenient to use `in` for input, `out` for output and `ok` for output of slower solution.
 Additionally, we can use `in2`, `in3` and so on for multiple inputs (such as in AtCoder or Codeforces sometimes).
 
-We have to compile each one of `sol.cpp`, `stupid.cpp` and `gen.cpp` (as the batch file uses the compiled executables).
+We have to compile each one of `sol.cpp`, `stupid.cpp` and `gen.cpp` (as the batch file uses the compiled executables). \
 `test.bat`
 ```batch
 @echo off
