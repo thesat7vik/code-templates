@@ -1,8 +1,16 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
+#ifdef LOCAL
+    #include "algo/debug.h"
+#else
+    #define debug(...)
+#endif
+
 int main() {
-    using namespace std;
-    ios::sync_with_stdio(false), cin.tie(nullptr);
-    mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
     return 0;
 }

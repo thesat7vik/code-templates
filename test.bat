@@ -1,7 +1,7 @@
 @echo off
-gen >in 
-sol <in >out
-stupid <in >ok 
-fc out ok 
+gen>input.txt
+sol<input.txt>output.txt
+stupid<input.txt>correct.txt 
+fc output.txt correct.txt 
 if errorlevel 1 pause 
 test
